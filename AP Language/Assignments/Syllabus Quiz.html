@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Syllabus Quiz</title>
+        <meta charset='utf-8'/>
+        <style>
+ .ͼ1.cm-focused {outline: 1px dotted #212121;}
+.ͼ1 {position: relative !important; box-sizing: border-box; display: flex !important; flex-direction: column;}
+.ͼ1 .cm-scroller {display: flex !important; align-items: flex-start !important; font-family: monospace; line-height: 1.4; height: 100%; overflow-x: auto; position: relative; z-index: 0;}
+.ͼ1 .cm-content[contenteditable=true] {-webkit-user-modify: read-write-plaintext-only;}
+.ͼ1 .cm-content {margin: 0; flex-grow: 2; flex-shrink: 0; display: block; white-space: pre; word-wrap: normal; box-sizing: border-box; min-height: 100%; padding: 4px 0; outline: none;}
+.ͼ1 .cm-lineWrapping {white-space: pre-wrap; white-space: break-spaces; word-break: break-word; overflow-wrap: anywhere; flex-shrink: 1;}
+.ͼ2 .cm-content {caret-color: black;}
+.ͼ3 .cm-content {caret-color: white;}
+.ͼ1 .cm-line {display: block; padding: 0 2px 0 6px;}
+.ͼ1 .cm-layer > * {position: absolute;}
+.ͼ1 .cm-layer {position: absolute; left: 0; top: 0; contain: size style;}
+.ͼ2 .cm-selectionBackground {background: #d9d9d9;}
+.ͼ3 .cm-selectionBackground {background: #222;}
+.ͼ2.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #d7d4f0;}
+.ͼ3.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #233;}
+.ͼ1 .cm-cursorLayer {pointer-events: none;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer {animation: steps(1) cm-blink 1.2s infinite;}
+@keyframes cm-blink {50% {opacity: 0;}}
+@keyframes cm-blink2 {50% {opacity: 0;}}
+.ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {border-left: 1.2px solid black; margin-left: -0.6px; pointer-events: none;}
+.ͼ1 .cm-cursor {display: none;}
+.ͼ3 .cm-cursor {border-left-color: #444;}
+.ͼ1 .cm-dropCursor {position: absolute;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer .cm-cursor {display: block;}
+.ͼ1 .cm-iso {unicode-bidi: isolate;}
+.ͼ1 .cm-announced {position: fixed; top: -10000px;}
+@media print {.ͼ1 .cm-announced {display: none;}}
+.ͼ2 .cm-activeLine {background-color: #cceeff44;}
+.ͼ3 .cm-activeLine {background-color: #99eeff33;}
+.ͼ2 .cm-specialChar {color: red;}
+.ͼ3 .cm-specialChar {color: #f78;}
+.ͼ1 .cm-gutters {flex-shrink: 0; display: flex; height: 100%; box-sizing: border-box; inset-inline-start: 0; z-index: 200;}
+.ͼ2 .cm-gutters {background-color: #f5f5f5; color: #6c6c6c; border-right: 1px solid #ddd;}
+.ͼ3 .cm-gutters {background-color: #333338; color: #ccc;}
+.ͼ1 .cm-gutter {display: flex !important; flex-direction: column; flex-shrink: 0; box-sizing: border-box; min-height: 100%; overflow: hidden;}
+.ͼ1 .cm-gutterElement {box-sizing: border-box;}
+.ͼ1 .cm-lineNumbers .cm-gutterElement {padding: 0 3px 0 5px; min-width: 20px; text-align: right; white-space: nowrap;}
+.ͼ2 .cm-activeLineGutter {background-color: #e2f2ff;}
+.ͼ3 .cm-activeLineGutter {background-color: #222227;}
+.ͼ1 .cm-panels {box-sizing: border-box; position: sticky; left: 0; right: 0;}
+.ͼ2 .cm-panels {background-color: #f5f5f5; color: black;}
+.ͼ2 .cm-panels-top {border-bottom: 1px solid #ddd;}
+.ͼ2 .cm-panels-bottom {border-top: 1px solid #ddd;}
+.ͼ3 .cm-panels {background-color: #333338; color: white;}
+.ͼ1 .cm-tab {display: inline-block; overflow: hidden; vertical-align: bottom;}
+.ͼ1 .cm-widgetBuffer {vertical-align: text-top; height: 1em; width: 0; display: inline;}
+.ͼ1 .cm-placeholder {color: #888; display: inline-block; vertical-align: top;}
+.ͼ1 .cm-highlightSpace:before {content: attr(data-display); position: absolute; pointer-events: none; color: #888;}
+.ͼ1 .cm-highlightTab {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20"><path stroke="%23888" stroke-width="1" fill="none" d="M1 10H196L190 5M190 15L196 10M197 4L197 16"/></svg>'); background-size: auto 100%; background-position: right 90%; background-repeat: no-repeat;}
+.ͼ1 .cm-trailingSpace {background-color: #ff332255;}
+.ͼ1 .cm-button {vertical-align: middle; color: inherit; font-size: 70%; padding: .2em 1em; border-radius: 1px;}
+.ͼ2 .cm-button:active {background-image: linear-gradient(#b4b4b4, #d0d3d6);}
+.ͼ2 .cm-button {background-image: linear-gradient(#eff1f5, #d9d9df); border: 1px solid #888;}
+.ͼ3 .cm-button:active {background-image: linear-gradient(#111, #333);}
+.ͼ3 .cm-button {background-image: linear-gradient(#393939, #111); border: 1px solid #888;}
+.ͼ1 .cm-textfield {vertical-align: middle; color: inherit; font-size: 70%; border: 1px solid silver; padding: .2em .5em;}
+.ͼ2 .cm-textfield {background-color: white;}
+.ͼ3 .cm-textfield {border: 1px solid #555; background-color: inherit;}
+.ͼ1 .cm-foldPlaceholder {background-color: #eee; border: 1px solid #ddd; color: #888; border-radius: .2em; margin: 0 1px; padding: 0 1px; cursor: pointer;}
+.ͼ1 .cm-foldGutter span {padding: 0 1px; cursor: pointer;}
+ 
+.pandoc-plugin-error {
+    color: red;
+}
+  .container.svelte-pcimu8{--color-background-heading:transparent;--color-background-day:transparent;--color-background-weeknum:transparent;--color-background-weekend:transparent;--color-dot:var(--text-muted);--color-arrow:var(--text-muted);--color-button:var(--text-muted);--color-text-title:var(--text-normal);--color-text-heading:var(--text-muted);--color-text-day:var(--text-normal);--color-text-today:var(--interactive-accent);--color-text-weeknum:var(--text-muted)}.container.svelte-pcimu8{padding:0 8px}.container.is-mobile.svelte-pcimu8{padding:0}th.svelte-pcimu8{text-align:center}.weekend.svelte-pcimu8{background-color:var(--color-background-weekend)}.calendar.svelte-pcimu8{border-collapse:collapse;width:100%}th.svelte-pcimu8{background-color:var(--color-background-heading);color:var(--color-text-heading);font-size:0.6em;letter-spacing:1px;padding:4px;text-transform:uppercase} .nav.svelte-1vwr9dd.svelte-1vwr9dd{align-items:center;display:flex;margin:0.6em 0 1em;padding:0 8px;width:100%}.nav.is-mobile.svelte-1vwr9dd.svelte-1vwr9dd{padding:0}.title.svelte-1vwr9dd.svelte-1vwr9dd{color:var(--color-text-title);font-size:1.5em;margin:0}.is-mobile.svelte-1vwr9dd .title.svelte-1vwr9dd{font-size:1.3em}.month.svelte-1vwr9dd.svelte-1vwr9dd{font-weight:500;text-transform:capitalize}.year.svelte-1vwr9dd.svelte-1vwr9dd{color:var(--interactive-accent)}.right-nav.svelte-1vwr9dd.svelte-1vwr9dd{display:flex;justify-content:center;margin-left:auto}.reset-button.svelte-1vwr9dd.svelte-1vwr9dd{cursor:pointer;border-radius:4px;color:var(--text-muted);font-size:0.7em;font-weight:600;letter-spacing:1px;margin:0 4px;padding:0px 4px;text-transform:uppercase}.is-mobile.svelte-1vwr9dd .reset-button.svelte-1vwr9dd{display:none} .arrow.svelte-156w7na.svelte-156w7na{align-items:center;cursor:pointer;display:flex;justify-content:center;width:24px}.arrow.is-mobile.svelte-156w7na.svelte-156w7na{width:32px}.right.svelte-156w7na.svelte-156w7na{transform:rotate(180deg)}.arrow.svelte-156w7na svg.svelte-156w7na{color:var(--color-arrow);height:16px;width:16px} .day.svelte-q3wqg9{background-color:var(--color-background-day);border-radius:4px;color:var(--color-text-day);cursor:pointer;font-size:0.8em;height:100%;padding:4px;position:relative;text-align:center;transition:background-color 0.1s ease-in, color 0.1s ease-in;vertical-align:baseline}.day.svelte-q3wqg9:hover{background-color:var(--interactive-hover)}.day.active.svelte-q3wqg9:hover{background-color:var(--interactive-accent-hover)}.adjacent-month.svelte-q3wqg9{opacity:0.25}.today.svelte-q3wqg9{color:var(--color-text-today)}.day.svelte-q3wqg9:active,.active.svelte-q3wqg9,.active.today.svelte-q3wqg9{color:var(--text-on-accent);background-color:var(--interactive-accent)}.dot-container.svelte-q3wqg9{display:flex;flex-wrap:wrap;justify-content:center;line-height:6px;min-height:6px} .dot.svelte-1widvzq,.hollow.svelte-1widvzq{display:inline-block;height:6px;width:6px;margin:0 1px}.filled.svelte-1widvzq{fill:var(--color-dot)}.active.filled.svelte-1widvzq{fill:var(--text-on-accent)}.hollow.svelte-1widvzq{fill:none;stroke:var(--color-dot)}.active.hollow.svelte-1widvzq{fill:none;stroke:var(--text-on-accent)}undefined
+</style>
+    </head>
+    <body>
+
+<h1 data-heading="Advanced Placement English Language and Composition Syllabus 2024-25" dir="auto">Advanced Placement English Language and Composition Syllabus 2024-25</h1>
+<h2 data-heading="Course desc." dir="auto">Course desc.</h2>
+<ul>
+<li dir="auto">College-level course based on careful reading and thoughtful writing</li>
+<li dir="auto">Focuses on reading, understanding, and writing about a variety of texts</li>
+<li dir="auto">Writing intensive including 16 essays throughout the year and short response questions on assessments</li>
+<li dir="auto">Passing the AP exam is not the main focus (🙄), Dr. Rob's wish for us is "more ambitious and more lasting". The emphasis is placed on developing skills of analytics and expression that will enable us to become a "more perceptive, thoughtful, and articulate human being".</li>
+</ul>
+<h2 data-heading="Objectives" dir="auto">Objectives</h2>
+<ul>
+<li dir="auto">Chronological units which each engage the "Big Ideas" (Rhetorical Situation, Claims and Evidence, Reasoning and Organization, and Style).</li>
+<li dir="auto">
+<h3 data-heading="CR1" dir="auto">CR1</h3>
+"Big Ideas"</li>
+<li dir="auto">
+<h3 data-heading="CR2" dir="auto">CR2</h3>
+Emphasis on nonfiction reading, including essays, journals, etc., and analysis of said writing.</li>
+<li dir="auto">
+<h3 data-heading="CR3-CR10" dir="auto">CR3-CR10</h3>
+Reading and writing assignments to practice the skills of the "Big Ideas".</li>
+<li dir="auto">
+<h3 data-heading="CR11" dir="auto">CR11</h3>
+Writing documented argumentative essays including citations of "authoritative sources".</li>
+<li dir="auto">
+<h3 data-heading="CR12" dir="auto">CR12</h3>
+Writing rhetorical analyses.</li>
+<li dir="auto">
+<h3 data-heading="CR13" dir="auto">CR13</h3>
+Routinely reading aloud in class from essays in order to receive and give critiques.</li>
+</ul>
+<h2 data-heading="Classroom Atmosphere" dir="auto">Classroom Atmosphere</h2>
+<p dir="auto">Dr. Rob follows "The Cleric" (Geoffrey Chaucer) and he takes it as a good model to follow for teaching. He says that civil discourse is very important and that everyone should feel safe to express and discuss unique viewpoints in class.</p>
+<p dir="auto">He says that the classroom should be separate from the lunch room or locker room and lists these rules.</p>
+<ol>
+<li dir="auto">Be in your seat when the bell rings</li>
+<li dir="auto">Listen</li>
+<li dir="auto">Speak thoughtfully</li>
+<li dir="auto">Be kind</li>
+<li dir="auto">Don't eat</li>
+<li dir="auto">"Leave your cell phone turned off in the deepest darkest depths of your book bag. If you cannot live and hour without touching your cell phone, please drop this class <strong>immediately</strong>"</li>
+</ol>
+<h2 data-heading="Grading" dir="auto">Grading</h2>
+<p dir="auto">C - Satisfactory<br>
+B - Commendable, approaches mastery<br>
+A - Outstanding, shows mastery<br>
+F - Unacceptable</p>
+<h2 data-heading="Grade Allocation" dir="auto">Grade Allocation</h2>
+<p dir="auto">40% - Daily Work<br>
+60% - Assessments</p>
+<p dir="auto">If absent, be prepared to make it up/submit the day you return.</p>
+<h2 data-heading="Rubric" dir="auto">Rubric</h2>
+<p dir="auto">An <strong>A</strong> on a paper meets this criteria:</p>
+<ol>
+<li dir="auto">A significant topic with logical development of a central idea with sound evidence</li>
+<li dir="auto">Effective organization with transitions and unity</li>
+<li dir="auto">Variety in sentence structure</li>
+<li dir="auto">Appropriate diction</li>
+<li dir="auto">No major grammatical errors</li>
+</ol>
+<h2 data-heading="Major Errors" dir="auto">Major Errors</h2>
+<p dir="auto"><em>EG: Awkward, Agreement, Sentence Fragments, Fused Sentences, Verb Errors, Logic, Coherence</em> (what he wrote, dont @ me)<br>
+You have the option of submitting rewrites for extra grades on the <strong>first 8</strong> essays. Only essays which are submitted on time qualify for additional credit.</p>
+<h2 data-heading="Format" dir="auto">Format</h2>
+<p dir="auto">MLA format, no title page but you need a first page with this info at the top left:</p>
+<ol>
+<li dir="auto">Your Name</li>
+<li dir="auto">Your Class Pd.</li>
+<li dir="auto">The Assignment (<em>EG: Essay 1</em>)</li>
+<li dir="auto">The Date<br>
+Next, centered on the page write the <em>Statement of Purpose</em> which he has given for the essay. The Statement of Purpose should be copied <em>verbatim on every essay</em>. Below write the title you have chosen.</li>
+</ol>
+<h2 data-heading="Plagiarism" dir="auto">Plagiarism</h2>
+<p dir="auto">Encouraged to discuss ideas with other students as well as proofread. Anyone who plagiarizes forfeits their right to be trusted and gives up their integrity. <strong>The consequence of plagiarism is a zero on the essay.</strong> Most students who plagiarize fail the course.</p>
+<p dir="auto">For proper quoting you must use quotation marks (duh). For proper paraphrasing the writer must indicate where the paraphrase beings and state the source at the end of the passage (duh).</p>
+<p dir="auto">All writing outside of class is submitted via <a data-tooltip-position="top" aria-label="https://turnitin.com" rel="noopener" class="external-link" href="https://turnitin.com" target="_blank">turnitin.com</a> which flags AI and plagiarism.</p>
+<h2 data-heading="Journals" dir="auto">Journals</h2>
+<h4 data-heading="A:" dir="auto">A:</h4>
+<p dir="auto">In response to lectures he will ask you to take notes, date them, and keep them in the journal. If he writes something on the board, you should write it down.</p>
+<h4 data-heading="B:" dir="auto">B:</h4>
+<p dir="auto">He will ask you to write journal entries each week. Each entry should be numbered and dated. Some will be specific responses and some will be prep for essays. Keep them all in a single document. <strong>Periodically, without notice he will check the journal entries for a grade.</strong> (basically hargis quotes but on giga steroids)</p>
+<h2 data-heading="Work Load" dir="auto">Work Load</h2>
+<p dir="auto">1 hour of homework a night</p>
+<h2 data-heading="Late Work" dir="auto">Late Work</h2>
+<p dir="auto">If you know before that an assignment will be late (for a good reason) you should notify Dr. Rob before the fact. For every day an essay is late, 10 pts are taken off. Homework not accepted late unless you have an excused absence. If you are tardy and miss a quiz, it's a 0.</p>
+<h2 data-heading="Texts" dir="auto">Texts</h2>
+<p dir="auto">The Scarlet Letter<br>
+Adventures of Huckleberry Finn<br>
+The Great Gatsby</p>
+<h2 data-heading="Quizzes" dir="auto">Quizzes</h2>
+<p dir="auto">Unannounced quizzes on dates when reading assignments are due. 5-10 questions. If they are oral exams, he will read the question twice and no more.</p>
+<h2 data-heading="Materials" dir="auto">Materials</h2>
+<p dir="auto">Blue or black pen, notebook paper (no ragged edges), charged laptop</p>
+<h2 data-heading="Outline (no need to summarize)" dir="auto">Outline (no need to summarize)</h2>
+<p dir="auto"><img alt="IMG_1730.jpg" src="IMG_1730.jpg" class="internal-embed"></p>
+    </body>
+</html>
