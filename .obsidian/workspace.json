@@ -4,103 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e8aa1023066ab09d",
+        "id": "7b4c6df49e48f5f6",
         "type": "tabs",
         "children": [
           {
-            "id": "59ee88e12ee3d8b6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "IMG_1730.jpg"
-              }
-            }
-          },
-          {
-            "id": "c877d3641ffbb01b",
+            "id": "6e42a615688bc87d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-30.md",
+                "file": "2024-08-09.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6a00763f6fed0a63",
+            "id": "63f7f46de5847484",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Networking/ARP.md",
+                "file": "2024-08-06.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "93caf14cb1ca00b7",
-            "type": "leaf",
-            "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "Coding/Networking/ARP.go"
-              }
-            }
-          },
-          {
-            "id": "b6fcddc8d731a902",
+            "id": "13f110b9f525893b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Networking/ARP Poisoning.md",
+                "file": "AP Language/Journal.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "02982fba407dc6c0",
+            "id": "a7f47827b1380156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Networking/Frame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7142bf983f6d5e51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Networking/Broadcast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62b799fb6eb193ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Networking/Frame.md",
+                "file": "2024-08-07.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "67e8d4e08751ac6a",
@@ -166,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Networking/ARP.md",
+                "file": "2024-08-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Networking/ARP.md",
+                "file": "2024-08-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Networking/ARP.md"
+                "file": "2024-08-07.md"
               }
             }
           },
@@ -236,37 +192,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a00763f6fed0a63",
+  "active": "a7f47827b1380156",
   "lastOpenFiles": [
-    "2024-10-31.md",
-    "Coding/Networking/ARP.go",
-    "Coding/Networking/ARP Cache.md",
-    "Coding/Networking/Broadcast.md",
-    "Coding/Networking/ARP.md",
-    "AP Chemistry/Assignments/Choice Board 3.md",
+    "2024-08-06.md",
+    "2024-08-07.md",
+    "AP Language/Journal.md",
+    "AP Gov/Unit 1.md",
     "IMG_1730.jpg",
+    "2024-10-31.md",
+    "2024-08-05.md",
+    "2024-08-09.md",
+    "AP Gov/Reading Quiz 1.md",
+    "AP Gov",
+    "AP Language/Assignments/Journal 2.md",
+    "[[2024-08-05]].md",
     "2024-09-30.md",
+    "AP Language/Assignments/Syllabus Quiz.md",
+    "Coding/Networking/Frame.md",
+    "Coding/Networking/Broadcast.md",
+    "Coding/Networking/ARP Poisoning.md",
+    "Coding/Networking/ARP.md",
+    "Coding/Networking/ARP.go",
+    "Coding/Networking/ARP_NEW.go",
+    "1 Year Reboot/Journey.md",
+    "1 Year Reboot/04 Aug 2024.md",
+    "Coding/Networking/go.sum",
+    "Coding/Networking/cmd/arp/arp.go",
+    "Coding/Networking/cmd/socket/conn.go",
+    "Coding/Networking/cmd/arp/packet.go",
+    "Coding/Networking/cmd/arp",
+    "Coding/Networking/cmd/socket/socket.go",
+    "Coding/Networking/cmd/socket",
+    "Coding/Networking/ARP Cache.md",
+    "AP Chemistry/Assignments/Choice Board 3.md",
     "AP Chemistry/Assignments/Choice Board 2.md",
     "AP Chemistry/Assignments/Choice Board 1.md",
     "2024-08-31.md",
-    "AP Chemistry/Assignments",
-    "AP Chemistry",
-    "2024-08-05.md",
     "2024-08-30.md",
-    "1 Year Reboot/Journey.md",
-    "1 Year Reboot/04 Aug 2024.md",
-    "1 Year Reboot",
-    "Coding/Networking/ARP Poisoning.md",
-    "Coding/Networking/Frame.md",
     "packet.md",
-    "Coding/Networking",
-    "Coding",
-    "AP Language/Assignments/Syllabus Quiz.md",
-    "AP Language/Assignments/Syllabus Quiz.html",
-    "AP Language/Assignments",
-    "AP Language",
-    "2024-08-02.md",
-    "Work.md",
-    "Welcome.md"
+    "2024-08-02.md"
   ]
 }
